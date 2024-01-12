@@ -2,7 +2,7 @@
 <h1>Five topics related to computing</h1>
 <ol>
   <li>    
-Application Security – I’m interested in learning more about OWASP and security measures that big tech companies use to prevent leaks and privacy threats. Ï
+Application Security – I’m interested in learning more about OWASP and security measures that big tech companies use to prevent leaks and privacy threats. 
   </li>
 <li>
   Artificial Intelligence/Machine Learning – Machine learning in general is quite a hot topic, and I am eager to learn more on how it can improve our daily lives or impact the world in general.
