@@ -105,3 +105,7 @@ In this assignment, we are creating a program to model a bag of marbles with spe
   <li>Check if red marbles still exists in bag after being removed (should not be in the bag at all)</li>
   <li>Check if we can add red marbles back with no bugs</li>
 </ol>
+
+
+line 55-105: 
+![](console.pdf)
