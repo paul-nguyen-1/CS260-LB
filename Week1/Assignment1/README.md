@@ -108,4 +108,4 @@ In this assignment, we are creating a program to model a bag of marbles with spe
 
 
 line 55-105: 
-![](console.pdf)
+![](console.png)
