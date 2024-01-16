@@ -57,20 +57,19 @@ if __name__ == "__main__":
     bag = BagOfMarbles()
 
     # Check for empty bag
-    print(f"Bag is empty {bag.is_empty()}")
+    print(f"Bag is empty: {bag.is_empty()}")
     
     # Test adding marbles
     bag.add_marble("red", 4)
     bag.add_marble("blue", 5)
     bag.add_marble("green")
     
-    # Check for not empty bag
-    print(f"Bag is empty {bag.is_empty()}")
-    
     # Print marble bag count: 10
     print(f"Blue marble count: {bag.get_marble_count('blue')}")
     print(f"Red marble count: {bag.get_marble_count('red')}")
     print(f"Green marble count: {bag.get_marble_count('green')}")
+    # Check for not empty bag
+    print(f"Bag is empty: {bag.is_empty()}")
     print(f"Marble bag count: {bag.marble_bag_count()}")
 
     # Make sure Red blue and green marbles are in the bag
@@ -93,6 +92,7 @@ if __name__ == "__main__":
     print(f"Red marble count: {bag.get_marble_count('red')}")
     print(f"Green marble count: {bag.get_marble_count('green')}")
     print(f"Marble count: {bag.marble_bag_count()}")
+    print(f"Marble Bag: {bag.display_marble_bag()}")
     
     # Add 12 red marbles
     bag.add_marble('red', 12)
@@ -101,6 +101,6 @@ if __name__ == "__main__":
     print(f"Red marble count: {bag.get_marble_count('red')}")
     print(f"Green marble count: {bag.get_marble_count('green')}")
     print(f"Final marble count: {bag.marble_bag_count()}")
-    print(f"Marble Bag: {bag.display_marble_bag()}")
     print(f"Marble count: {bag.marble_bag_count()}")
+    print(f"Marble Bag: {bag.display_marble_bag()}")
 
