@@ -1,3 +1,5 @@
+![](assignment.png)
+
 <h1>Implementation Design</h1>
 <span>
 In this assignment, we are creating a program to model a bag of marbles with specific behaviors and properties.
