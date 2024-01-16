@@ -87,7 +87,7 @@ if __name__ == "__main__":
     print(f"Marble Bags: {bag.display_marble_bag()}")
     
     # Test removing more than what we currently have in the bag
-    print(f"Remove alot of red marbles: {bag.remove_marble('red', 50)}")
+    print(f"Remove 50 red marbles: {bag.remove_marble('red', 50)}")
     print(f"Blue marble count: {bag.get_marble_count('blue')}")
     print(f"Red marble count: {bag.get_marble_count('red')}")
     print(f"Green marble count: {bag.get_marble_count('green')}")
