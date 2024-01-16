@@ -93,3 +93,15 @@ In this assignment, we are creating a program to model a bag of marbles with spe
   <li>If the color is inside our marble bag, we will increment the marble color count variable.</li>
   <li>Once the loop is complete, print out the marble count if the bag wasn't empty. If the bag is empty, print out a statement that the bag was empty.</li>
 </ol>
+
+<h3>Testing</h3>
+<ol>
+  <li>Check if we can track whenever bag is empty.</li>
+  <li>Check total marble count in bag</li>
+  <li>Check if we can add marbles (red: 4, blue: 5, green:1)</li>
+  <li>Check if we can display all marbles in bag</li>
+  <li>Check if we can remove marbles(we'll remove 3 blue marbles in testing)</li>
+  <li>Check if we remove more marbles than we currently have that it just removes all the marbles for the specific color (remove 50 marbles)</li>
+  <li>Check if red marbles still exists in bag after being removed (should not be in the bag at all)</li>
+  <li>Check if we can add red marbles back with no bugs</li>
+</ol>
