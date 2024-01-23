@@ -67,3 +67,4 @@ Adding to the rear of the Queue (Enqueue): We will need to add (push) our elemen
 </ul>
 
 ![](linkedlist.jpg)
+![](linkedexample.jpg)
