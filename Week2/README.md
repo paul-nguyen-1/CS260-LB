@@ -49,13 +49,13 @@ Adding to the rear of the Queue (Enqueue): We will need to add (push) our elemen
 <span>Functions needed for linked list:</span>
 <ul>
   <li>
-    Insertion to linked list: We will need to insert new nodes at specific positions
+    Insertion to linked list: We will need to insert new nodes at specific positions. Need to check if head is still present. Traverse to the next node until it is equal to the position we need. Insert new node to the position needed and update the adjacent nodes accordingly.
   </li>
   <li>
-    Deletion to linked list: We will need to delete nodes at specific positions
+    Deletion to linked list: We will need to delete nodes at specific positions. Need to check if head is still present. Traverse to the next node until it is equal to the position we need. Remove the node at the specified position and update the adjacent nodes accordingly.
   </li>
   <li>
-    Traversing the linked list: We will need to traverse the linked list from the head node to the tail node
+    Traversing the linked list: We will need to traverse the linked list from the head node to the tail node. We can use this to check the data of each node as we iterate through the linked list.
   </li>
 </ul>
 <h2>Values needed for linked list to function properly:</h2>
