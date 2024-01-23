@@ -3,19 +3,19 @@
 <span>Functions needed for queue:</span>
 <ul>
 <li>
-Adding to the rear of the Queue (Enqueue): We will need to add (push) our element/data into the end (rear index) of the queue.
+Adding to the rear of the Queue (Enqueue): We will need to add (push) our element/data into the end (rear index) of the queue. We will also need to make sure the queue is not at capacity, if it is then we should be unable to add more items into the queue.
 </li>
   <li>
-    Removing from the top of the Queue (Dequeue): We will need to remove (pop) our element from the top (front index) of the queue. We will need to know where the top is to properly remove the correct element.
+    Removing from the top of the Queue (Dequeue): We will need to remove (pop) our element from the top (front index) of the queue. We will need to know where the top is to properly remove the correct element. We will also need to make sure that if the queue is already empty than the function does not need to run as there is nothing to remove.
   </li>
   <li>
     Adding to front of the Queue (Requeue): We will need this function to add to the top (front index) of the queue. We will need to know where the top is to properly add the element to the top.
   </li>
   <li>
-    Checking if queue is empty: Check if queue is empty. Traverse through the queue, if we don’t have a value for the top of the queue, then we have an empty queue.
+    Checking if queue is empty: Check if queue is empty so that we can make sure we don't try to remove elements that are not there. Traverse through the queue, if we don’t have a value for the top of the queue, then we have an empty queue. 
   </li>
   <li>
-    Checking capacity of queue: If the queue is full, we need to make sure to check that the top of our queue is pointing to the top correctly.
+    Checking capacity of queue: If the queue is full, we need to make sure to check that we are unable to add more to the queue.
   </li>
   <li>Peek at the top of the queue: Function will return the value for the top of the queue. This allows us to be able to consistently track what we have added to the top of the queue.
 </li>
