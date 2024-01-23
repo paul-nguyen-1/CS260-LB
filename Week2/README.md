@@ -1,4 +1,3 @@
-![](queue.jpg)
 <h1>Based on what we know about linked lists, stacks, and queues, design a queue data structure:</h1>
 <h2>What functions are we likely to need for a queue to function like the one discussed in class?</h2>
 <span>Functions needed for queue:</span>
@@ -42,7 +41,8 @@ Adding to the rear of the Queue (Enqueue): We will need to add (push) our elemen
   </li>
 </ul>
 
-![](linkedlist.jpg)
+![](queue.jpg)
+
 
 <h1>Based on what we know about linked lists, design a list data structure that allows us to add (insert) or remove (delete) values at a given location in the list (instead of the top of a stack or the front or back of a queue):</h1>
 <h2>What functions are we likely to need for a list to function like this?</h2>
@@ -65,3 +65,5 @@ Adding to the rear of the Queue (Enqueue): We will need to add (push) our elemen
   <li>Next: Pointer to the next node in the linked list</li>
   <li>Prev: Pointer to the previous node in the linked list</li>
 </ul>
+
+![](linkedlist.jpg)
