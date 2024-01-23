@@ -41,14 +41,6 @@ Adding to the rear of the Queue (Enqueue): We will need to add (push) our elemen
   </li>
 </ul>
 
-<h2>Based on what we know about linked lists, design a list data structure that allows us to add (insert) or remove (delete) values at a given location in the list (instead of the top of a stack or the front or back of a queue):>
-<ol>
-<li>What functions are we likely to need for a list to function like this?</li>
-<p></p>
-<li>What values will we need to know about the structure for our list to function properly?</li>
-</ol>
-
-
 <h1>Based on what we know about linked lists, design a list data structure that allows us to add (insert) or remove (delete) values at a given location in the list (instead of the top of a stack or the front or back of a queue):</h1>
 <h2>What functions are we likely to need for a list to function like this?</h2>
 <span>Functions needed for linked list:</span>
