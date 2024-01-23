@@ -58,6 +58,7 @@ Adding to the rear of the Queue (Enqueue): We will need to add (push) our elemen
 <h2>Values needed for linked list to function properly:</h2>
 <ul>
   <li>Head: The actual value/data stored inside each node – checks for current val of current node</li>
+  <li>Current: The current node for the node that is being accessed or processed along the linked list</li>
   <li>Next: Pointer to the next node in the linked list</li>
   <li>Prev: Pointer to the previous node in the linked list</li>
 </ul>
