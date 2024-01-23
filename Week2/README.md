@@ -9,15 +9,15 @@ Adding to the rear of the Queue (Enqueue): We will need to add (push) our elemen
     Removing from the top of the Queue (Dequeue): We will need to remove (pop) our element from the top (front index) of the queue. We will need to know where the top is to properly remove the correct element.
   </li>
   <li>
-    Adding to front of the Queue (Requeue): We will need this function to add to the top (front index) of the queue.
+    Adding to front of the Queue (Requeue): We will need this function to add to the top (front index) of the queue. We will need to know where the top is to properly add the element to the top.
   </li>
   <li>
-    Checking if queue is empty: Check if queue is empty. If we don’t have a value for the top of the queue, then we have an empty queue.
+    Checking if queue is empty: Check if queue is empty. Traverse through the queue, if we don’t have a value for the top of the queue, then we have an empty queue.
   </li>
   <li>
     Checking capacity of queue: If the queue is full, we need to make sure to check that the top of our queue is pointing to the top correctly.
   </li>
-  <li>Peek at the top of the queue: Function will return the value for the top of the queue.
+  <li>Peek at the top of the queue: Function will return the value for the top of the queue. This allows us to be able to consistently track what we have added to the top of the queue.
 </li>
 </ul>
 
