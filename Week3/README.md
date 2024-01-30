@@ -24,10 +24,10 @@
 </ol>
 
 <h1>Diagram of Values:</h1>
-<span>Lines 53-84</span>
 
 ![](uml.png) 
 
 <h1>Testing Implementation:</h1>
+<span>Lines 53-84</span>
 
 ![](testing.png)
