@@ -29,5 +29,7 @@
 
 <h1>Testing Implementation:</h1>
 <span>Lines 53-84</span>
-
 ![](testing.png)
+
+<h1>Linked Queue Example:</h1>
+![](linkedqueue.jpg)
