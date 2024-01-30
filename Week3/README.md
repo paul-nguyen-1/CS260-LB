@@ -12,3 +12,13 @@
 <li>Tail: The tail of the linked list points to the back of the queue. It keeps track of the last element in the queue.</li>
 <li>Size of the queue. It keeps track of the queue size when we add or delete a node.</li>
 </ol>
+
+<h2> Implementation Complexities </h2>
+<ol>
+<li>Enqueue (O1): Enqueue function involves creating a new node and updating the tail pointer. This functions is constant time since it does not depend on the size of the queue.</li>
+<li>Dequeue (O1): Dequeue function involves updating the head pointer. This function is constant time since it does not depend on the size of the queue.</li>
+<li>PeekTop (O1): Peek top operation returns the value of the head node. It is a constant time operation since it does not depend on the size of the queue unless it is empty.</li>
+<li>CheckSize (O1): The size of the queue is maintained as a variable, so checking the size is a constant time operation.</li>
+</ol>
+
+![](uml.png)
