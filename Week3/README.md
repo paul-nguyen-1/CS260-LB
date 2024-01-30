@@ -1,11 +1,11 @@
 <h1>Based on what we know about linked lists, stacks, and queues, design a linked queue</h1>
 <h2>Functions used in Linked Queue Data Structure</h2>
 <ol>
-<li>Enqueue(x) (O1): Insertion. We will take an element as a parameter for the enqueue function and add the value of the element to the back of the queue.</li>
-<li>Dequeue() (O1): Deletion. We will remove the element from the front of the queue and return the value that is removed.</li>
-<li>PeekTop() (O1): We will create a function that will return the value at the front of the queue (without removing it).</li>
-<li>Check Size() (O1): Check the size of the queue to keep track of how many nodes are currently present in linked queue. </li>
-<li>Is Empty() (O1): Check whether queue is empty or not. We will check the linked list and validate if the queue is empty.</li>
+<li>enqueue(x) (O1): Insertion. We will take an element as a parameter for the enqueue function and add the value of the element to the back of the queue.</li>
+<li>dequeue() (O1): Deletion. We will remove the element from the front of the queue and return the value that is removed.</li>
+<li>peek_top() (O1): We will create a function that will return the value at the front of the queue (without removing it).</li>
+<li>check_size() (O1): Check the size of the queue to keep track of how many nodes are currently present in linked queue. </li>
+<li>is_empty() (O1): Check whether queue is empty or not. We will check the linked list and validate if the queue is empty.</li>
 </ol>
 <h2>Values used in Linked Queue Data Structure</h2>
 <ol>
