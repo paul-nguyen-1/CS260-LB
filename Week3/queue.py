@@ -55,15 +55,31 @@ if __name__ == "__main__":
     
     # Test enqueue
     print("Add nodes to linked list ----------------------")
-    my_queue.enqueue('top node')
-    my_queue.enqueue('middle node')
-    my_queue.enqueue('bottom node')
-    print(f"Print out top queue: {my_queue.peek_top()}")  # should print out top node
+    print(f"Added: {my_queue.enqueue('top node')}")
+    print(f"Added:{my_queue.enqueue('middle node')}")
+    print(f"Added: {my_queue.enqueue('bottom node')}")
+    
+    print("Check if queue is empty -----------")
+    # Test if queue is empty
+    print(f"{my_queue.is_empty()}") # should print false
+    
+    print("Peek at top of queue and check size ----------------------")
+    # Test peek at top of queue
+    print(f"Peek at top queue: {my_queue.peek_top()}")  # should print out top node
+    
+    # Test check size of queue
     print(f"Print out size: {my_queue.check_size()}")  # should print out 3
     
     # Test dequeue
     print("Remove a node from linked list -----------------")
     print(f"Removed:{my_queue.dequeue()} from the queue") # Should print out top node removed
-    print(f"Print out top queue: {my_queue.peek_top()}")  # should print out middle node
+    print(f"Peek at top queue: {my_queue.peek_top()}")  # should print out middle node
     print(f"Print out size: {my_queue.check_size()}")  # should print out 2
+    
+    
+    # Remove all items from queue
+    print(f"Removed:{my_queue.dequeue()} from the queue") # should print middle node
+    print(f"Removed:{my_queue.dequeue()} from the queue") # should print bottom node
+    
+    print(f"Queue is empty: {my_queue.is_empty()}") # Should print out true
     
