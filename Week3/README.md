@@ -23,4 +23,8 @@
 <li>IsEmpty (O1): Check's whether or not there is a node at the head of the linked list, so checking the queue is a constant time operation. </li>
 </ol>
 
+<h1>Diagram of Values:</h1>
 ![](uml.png)
+
+<h1>Testing Implementation:</h1>
+![](testing.png)
