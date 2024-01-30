@@ -24,7 +24,9 @@
 </ol>
 
 <h1>Diagram of Values:</h1>
-![](uml.png)
+
+![](uml.png) 
 
 <h1>Testing Implementation:</h1>
+
 ![](testing.png)
