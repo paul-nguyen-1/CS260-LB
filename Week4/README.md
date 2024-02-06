@@ -33,8 +33,8 @@
 <h1>Testing Implementation:</h1>
 <span>Lines 107-158</span>
 
-![](linkedlist1.jpg)
+![](linkedlist1.png)
 
-![](linkedlist2.jpg)
+![](linkedlist2.png)
 
-![](linkedlist3.jpg)
+![](linkedlist3.png)
