@@ -16,10 +16,10 @@
 
 <h2> Implementation Complexities </h2>
 <ol>
-<li>Insert: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
-<li>Remove: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
-<li>Add: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
-<li>Node Position: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
+<li>Insert: This will be O(N) because we traverse through the linked list n times to insert the node within the specific position. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
+<li>Remove: This will be O(N) because we traverse through the linked list n times to find the node to remove. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
+<li>Add: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list. Although, we could also make the time complexity better and make it O(1) by just inserting it at the tail.</li>
+<li>Node Position: This will be O(N) because we traverse through the linked list n times to find the correct node position. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
 <li>Display: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
 </ol>
 
