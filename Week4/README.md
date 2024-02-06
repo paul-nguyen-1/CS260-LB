@@ -26,11 +26,13 @@
 
 ![](uml.png)
 
+<h1>Linked List Example:</h1>
+
+![](example.png)
+
 <h1>Testing Implementation:</h1>
 <span>Lines 107-158</span>
 
-![](testing.png)
-
-<h1>Linked List Example:</h1>
-
-![](linkedlist.jpg)
+![](linkedlist1.jpg)
+![](linkedlist2.jpg)
+![](linkedlist3.jpg)
