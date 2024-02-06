@@ -16,11 +16,11 @@
 
 <h2> Implementation Complexities </h2>
 <ol>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>Insert: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
+<li>Remove: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
+<li>Add: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
+<li>Node Position: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
+<li>Display: This will be O(N) because we traverse through the linked list n times. Thus our time complexity is dependent on n, the number of nodes on the linked list.</li>
 </ol>
 
 <h1>Diagram of Values:</h1>
