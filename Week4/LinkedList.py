@@ -133,7 +133,7 @@ def main():
     linked_list.display()  # Output: 2,3,4
     print("\n")
     print("Remove at position 2:")
-    linked_list.remove(2)  # Remove value 4 at position 2
+    print(f"Removed: {linked_list.remove(2)}")  # Remove value 4 at position 2
     linked_list.display()  # Output: 2,3
     print("\n")
 
