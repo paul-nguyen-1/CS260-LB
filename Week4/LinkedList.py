@@ -47,6 +47,7 @@ class LinkedList:
             return
 
         if pos == 0:  # If the position is 0, remove the head
+            removed_value = self.head.value  # Get the value of the removed head
             self.head = self.head.get_next()  # Assign the current head to the next value for the new head
             return self.head  # Return the new head
 
@@ -60,7 +61,9 @@ class LinkedList:
             count += 1  # Increment the count
 
         if current is not None:
+            removed_value = current.value # initialize removed value
             previous.set_next(current.get_next()) # Update the next reference of the previous node to skip the node to be removed
+            return removed_value # return the current node that gets removed
 
         
 
@@ -81,28 +84,28 @@ class LinkedList:
         else:
             return None # return nothing 
 
-def insert(self, val, pos):
-    """ Insert a node with the given value into the specified position in the linked list """
-    if pos < 0: # Check if the specified position is invalid
-        print('Please use position 0 or greater.')
+    def insert(self, val, pos):
+        """ Insert a node with the given value into the specified position in the linked list """
+        if pos < 0: # Check if the specified position is invalid
+            print('Please use position 0 or greater.')
 
-    new_node = Node(val)  # Initialize a new node with the given value
+        new_node = Node(val)  # Initialize a new node with the given value
 
-    if pos == 0: # Check to see if we are inserting at the beginning of the linked list
-        new_node.next = self.head  # Set the next reference of the new node to the current head
-        self.head = new_node  # Update the head to the new node
+        if pos == 0: # Check to see if we are inserting at the beginning of the linked list
+            new_node.next = self.head  # Set the next reference of the new node to the current head
+            self.head = new_node  # Update the head to the new node
 
-    else:
-        current = self.head  # Initialize the current pointer to the head of the linked list
-        count = 0  # Initialize count to track the position in the linked list
+        else:
+            current = self.head  # Initialize the current pointer to the head of the linked list
+            count = 0  # Initialize count to track the position in the linked list
 
-        while count < pos - 1 and current is not None: # Traverse the linked list to the node before the specified position
-            current = current.next  # Move to the next node
-            count += 1  # Increment the count to track the position
+            while count < pos - 1 and current is not None: # Traverse the linked list to the node before the specified position
+                current = current.next  # Move to the next node
+                count += 1  # Increment the count to track the position
 
-        if current is not None: # Check if the specified position is valid within the linked list
-            new_node.next = current.next # Insert the new node between the current node and the next node
-            current.next = new_node
+            if current is not None: # Check if the specified position is valid within the linked list
+                new_node.next = current.next # Insert the new node between the current node and the next node
+                current.next = new_node
 
 def main():
     linked_list = LinkedList()
