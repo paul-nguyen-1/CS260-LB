@@ -34,5 +34,7 @@
 <span>Lines 107-158</span>
 
 ![](linkedlist1.jpg)
+
 ![](linkedlist2.jpg)
+
 ![](linkedlist3.jpg)
