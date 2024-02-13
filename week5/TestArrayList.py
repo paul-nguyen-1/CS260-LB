@@ -26,13 +26,13 @@ class TestArrayListMethods(unittest.TestCase):
         self.array_list.insert(1)
         self.assertEqual(self.array_list.array_list, [1, 3, 5, 8])
         
-        # Test inserting between 5 and 8 into array list
-        self.array_list.insert(7)
-        self.assertEqual(self.array_list.array_list, [1, 3, 5, 7, 8])
+        # Test inserting number already in linkedlist
+        self.array_list.insert(5)
+        self.assertEqual(self.array_list.array_list, [1, 3, 5, 5, 8])
         
          # Test inserting upper boundary into array list
         self.array_list.insert(14)
-        self.assertEqual(self.array_list.array_list, [1, 3, 5, 7, 8, 14])
+        self.assertEqual(self.array_list.array_list, [1, 3, 5, 5, 8, 14])
 
     def test_remove(self):
         self.array_list.array_list = [1, 3, 5, 8]

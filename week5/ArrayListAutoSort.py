@@ -5,7 +5,7 @@ class ArrayList:
 
     def insert(self, value) -> None:
         """ Insert an element into the array list in ascending order.
-            value: integer
+            value: string
         """
         index = 0  # Initialize index to check where to put value
         while index < len(self.array_list) and self.array_list[index] < value:
@@ -17,7 +17,7 @@ class ArrayList:
 
     def search(self, value) -> None:
         """ Set up binary search for array list.
-            value: integer
+            value: string
         """
         
         # Low is the lower boundary (0) and high is the upper boundary (last element in list)  -- Two Pointers
@@ -34,16 +34,18 @@ class ArrayList:
                 high = mid - 1 # decrement upper boundary
 
         print(f"{value} not found in the array list")
+        return mid
 
     
     # Just doing this function for funsies
     def remove(self, value) -> None:
         """ Deletion of an element from the array list.
-            value: Integer
+            value: string
         """
         if value in self.array_list:
             # Check if value is inside our list and remove it from our array list
             self.array_list.remove(value)  # Remove value from list
+        return value
 
     def display(self) -> None:
         """ Display array list """

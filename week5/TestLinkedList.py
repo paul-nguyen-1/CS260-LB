@@ -24,9 +24,9 @@ class TestLinkedListMethods(unittest.TestCase):
         self.linked_list.insert(4)
         self.assertEqual(self.linked_list.display(), [ 2, 4, 5, 8])
         
-        # Add a number greater than 8 into linked list
-        self.linked_list.insert(20)
-        self.assertEqual(self.linked_list.display(), [ 2, 4, 5, 8, 20])
+        # Add a number greater than 5 into linked list
+        self.linked_list.insert(5)
+        self.assertEqual(self.linked_list.display(), [ 2, 4, 5, 5, 8])
         
 
     def test_remove(self):
