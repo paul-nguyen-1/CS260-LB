@@ -52,6 +52,22 @@ class TestArrayListMethods(unittest.TestCase):
         # Remove greatest value
         self.array_list.remove(8)
         self.assertEqual(self.array_list.array_list, [3])
+        
+    def test_search(self):
+        self.array_list.array_list = [1, 2, 7, 11]
+        
+        # Check for the first value
+        self.assertEqual(self.array_list.search(1), 0)
+        
+        # Check for the last value
+        self.assertEqual(self.array_list.search(11), 3)
+        
+        # Check for the 3rd value
+        self.assertEqual(self.array_list.search(7), 2)
+        
+        # Check for the second value
+        self.assertEqual(self.array_list.search(2), 1)
+        
 
 if __name__ == '__main__':
     unittest.main()

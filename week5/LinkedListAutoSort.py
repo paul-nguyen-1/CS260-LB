@@ -38,12 +38,12 @@ class LinkedList:
 
         # Traverse the list to find the specified value and return its index
         while current:
-            if current.data == value:
+            if current.value == value:
                 return index
             current = current.next
             index += 1
 
-        return 
+        return # Return if the value is not found in the linked list
     
     def remove(self, value):
         """

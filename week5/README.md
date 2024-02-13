@@ -15,9 +15,10 @@
 <li>Remove a value that wasn't present in linked list</li>
 <li>Remove last value that was inside linked list</li>
 <h3>Search</h3>
-<li></li>
-<li></li>
-<li></li>
+<li>Check for the first value of the linked list</li>
+<li>Check for the last value of the linked list</li>
+<li>Check for the second value of the linked list</li>
+<li>Check for the third value of the linked list</li>
 </ul>
 
 <ul>
@@ -34,6 +35,11 @@
 <li>Remove value 1 from linked list (least greatest value)</li>
 <li>Remove a value that wasn't present in linked list</li>
 <li>Remove last value/greatest that was inside linked list</li>
+<h3>Search</h3>
+<li>Check for the first value of the linked list</li>
+<li>Check for the last value of the linked list</li>
+<li>Check for the second value of the linked list</li>
+<li>Check for the third value of the linked list</li>
 </ul>
 
 <h1>UML Diagrams</h1>

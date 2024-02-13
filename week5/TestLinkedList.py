@@ -52,6 +52,24 @@ class TestLinkedListMethods(unittest.TestCase):
         # Remove last value that was inside linked list
         self.linked_list.remove(5)
         self.assertEqual(self.linked_list.display(), [])
+        
+    def test_search(self):
+        self.linked_list.insert(1)
+        self.linked_list.insert(11)
+        self.linked_list.insert(7)
+        self.linked_list.insert(2)
+        
+        # Check for the first value
+        self.assertEqual(self.linked_list.search(1), 0)
+        
+        # Check for the last value
+        self.assertEqual(self.linked_list.search(11), 3)
+        
+        # Check for the 3rd value
+        self.assertEqual(self.linked_list.search(7), 2)
+        
+        # Check for the second value
+        self.assertEqual(self.linked_list.search(2), 1)
 
 if __name__ == '__main__':
     unittest.main()
