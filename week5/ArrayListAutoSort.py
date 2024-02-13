@@ -33,8 +33,7 @@ class ArrayList:
             else: # since the value is at the upper boundary we will decrement the right pointer
                 high = mid - 1 # decrement upper boundary
 
-        print(f"{value} not found in the array list")
-        return mid
+        return f"{value} not found in the array list"
 
     
     def remove(self, value) -> str:
