@@ -29,9 +29,9 @@ Search: Establish a two-pointer structure, utilizing 'low' and 'high' variables 
 <h2> Implementation Complexities </h2>
 <ol>
 <h2>Linked List</h2>
-<li>Insertion: </li>
-<li>Remove: </li>
-<li>Search: </li>
+<li>Insertion O(N): In the worst case, where the new node needs to be inserted at the end of the linked list, we must traverse the entire list. This involves visiting each node once, resulting in a linear time complexity proportional to the length of the list. Best case is O(1), in the case that we only insert a node at the head of the linked list, making it constant time.</li>
+<li>Remove O(N): In the worst case, removing a node may require traversing the entire linked list to find the specified value. The time complexity is linear since it depends on the length of the list. Best case is O(1), in the case that we only remove at the head of the linked list, making it constant time.</li>
+<li>Search O(N): In the worse case, searching for a node may require traversing the entire linked list to find the specified value. The time complexity is linear since it depends on the length of the list. Best case is O(1), in the case that we only search at the head of the linked list, making it constant time.</li>
 </ol>
 
 <ol>
