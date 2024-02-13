@@ -1,6 +1,51 @@
+<h1>Design a Linked List</h1>
+<h2>Functions used in Linked List Data Structure</h2>
+<ol>
+<li>Insertion: </li>
+<li>Remove: </li>
+<li>Search: </li>
+<li>Display: </li>
+</ol>
+<h2>Functions used in Array List Data Structure</h2>
+<ol>
+<li>Insertion: </li>
+<li>Remove: </li>
+<li>Search: </li>
+<li>Display: </li>
+</ol>
+<h2>Values used in Linked List Structure</h2>
+<ol>
+<li>Head: The head of the linked list, it keeps track of the first element in the queue.</li>
+<li>Value: Represents the data or content stored in a node of the linked list.</li>
+<li>Next: Reference to the next node in the linked list.</li>
+</ol>
+
+<h2>Values used in Array List Structure</h2>
+<ol>
+<li></li>
+</ol>
+
+<h2> Implementation Complexities </h2>
+<ol>
+<h2>Linked List</h2>
+<li>Insertion: </li>
+<li>Remove: </li>
+<li>Search: </li>
+<li>Display: </li>
+</ol>
+
+<ol>
+<h2>Array List</h2>
+<li>Insertion: </li>
+<li>Remove: </li>
+<li>Search: </li>
+<li>Display: </li>
+</ol>
+
+
 <h1>Testing Implementations</h1>
-<h2>File: LinkedListAutoSort.py</h2>
-<h2>File: ArrayListAutoSort.py</h2>
+<span>File: LinkedListAutoSort.py</span>
+<span>File: ArrayListAutoSort.py</span>
 
 <ul>
 <h2>Linked List</h2>
