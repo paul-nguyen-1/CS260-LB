@@ -41,6 +41,10 @@ Search: Establish a two-pointer structure, utilizing 'low' and 'high' variables 
 <li>Search O(log N): In this case, we use a binary search, which has a time complexity of O(log n), for a sorted list. Within this search, we will divide the search space in half with each comparison.</li>
 </ol>
 
+<h1>Time Complexity Image</h1>
+
+![](timecomplexity.jpg)
+
 
 <h1>Testing Implementations</h1>
 <span>File: LinkedListAutoSort.py</span>
