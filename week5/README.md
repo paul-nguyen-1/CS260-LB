@@ -1,10 +1,10 @@
 <h1>Design a Linked List</h1>
 <h2>Functions used in Linked List Data Structure</h2>
 <ol>
-<li>Insertion: </li>
-<li>Remove: </li>
-<li>Search: </li>
-<li>Display: </li>
+<li>Insertion:  Initialize node for linked list with the new value for insertion. Check if value is smaller than the head or if the linked list is empty. If it meets this condition we will set the new value as the new head and reassign the next node as the previous head. If the value is greater than the head, we will traverse the linked list until we get to a value in which the new value is less than the current node we get to on the linked list. Once we reach the position, we will reassign the value to the node and reassign the next nodes in the linked list.</li>
+<li>Remove: Initialize head node and check if our head is equal to the value we are trying to remove. If it meets this condition, we will update the head with the next node value. If its not equal to the head, we will traverse the linked list until we get to the value. Once we get to the current linked list node that is equal to the new value, we will update the linked list to remove the node with the value and reassign the later nodes.</li>
+<li>Search: Initialize a head node and index. Traverse the linked list until the current node reaches the value that we need. We will increment our index as we go to the next node in the linked list until we reach the value that we need. Return the index to get the specified position.</li>
+<li>Display: Initialize head and list. Iterate through linked list and append each node to the list. Return the array to display our linkedlist.</li>
 </ol>
 <h2>Functions used in Array List Data Structure</h2>
 <ol>
@@ -22,7 +22,7 @@
 
 <h2>Values used in Array List Structure</h2>
 <ol>
-<li></li>
+<li>Array List: Represents the array that holds a list of elements in indexed order.</li>
 </ol>
 
 <h2> Implementation Complexities </h2>
