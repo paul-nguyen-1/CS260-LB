@@ -14,7 +14,7 @@ class LinkedList:
         Insertion of node value into linked list in auto sorted order
         value: Node
         """
-        new_node = Node(value) # initialie node
+        new_node = Node(value) # initialize node
         if not self.head or value < self.head.value: # If the list is empty or the new node has a smaller value than the head,
             new_node.next = self.head # reassign head value
             self.head = new_node # insert the new node at the beginning
