@@ -32,7 +32,6 @@ Search: Establish a two-pointer structure, utilizing 'low' and 'high' variables 
 <li>Insertion: </li>
 <li>Remove: </li>
 <li>Search: </li>
-<li>Display: </li>
 </ol>
 
 <ol>
@@ -40,7 +39,6 @@ Search: Establish a two-pointer structure, utilizing 'low' and 'high' variables 
 <li>Insertion: </li>
 <li>Remove: </li>
 <li>Search: </li>
-<li>Display: </li>
 </ol>
 
 
