@@ -47,8 +47,8 @@ Search: Establish a two-pointer structure, utilizing 'low' and 'high' variables 
 
 
 <h1>Testing Implementations</h1>
-<span>File: LinkedListAutoSort.py</span>
-<span>File: ArrayListAutoSort.py</span>
+<span>File: LinkedListAutoSort.py: Lines 1-75</span>
+<span>File: ArrayListAutoSort.py: Lines 1-73</span>
 
 <ul>
 <h2>Linked List</h2>
