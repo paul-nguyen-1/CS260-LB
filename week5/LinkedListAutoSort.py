@@ -9,7 +9,7 @@ class LinkedList:
         """ Initialize head of linked list """
         self.head = None
 
-    def insert(self, value):
+    def insert(self, value) -> None:
         """
         Insertion of node value into linked list in auto sorted order
         value: Node
@@ -29,7 +29,7 @@ class LinkedList:
         new_node.next = current.next
         current.next = new_node
         
-    def search(self, value) -> int:
+    def search(self, value) -> str:
         """Search for a value in the linked list.
         value: Node
         """
@@ -45,7 +45,7 @@ class LinkedList:
 
         return # Return if the value is not found in the linked list
     
-    def remove(self, value):
+    def remove(self, value) -> str:
         """
         Deletion of node value in linked list
         value: Node

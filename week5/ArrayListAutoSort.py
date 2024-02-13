@@ -15,7 +15,7 @@ class ArrayList:
             index += 1  # Incrementing our index
         self.array_list.insert(index, value)  # Insert the value at the correct position based on the index
 
-    def search(self, value) -> None:
+    def search(self, value) -> str:
         """ Set up binary search for array list.
             value: string
         """
@@ -37,8 +37,7 @@ class ArrayList:
         return mid
 
     
-    # Just doing this function for funsies
-    def remove(self, value) -> None:
+    def remove(self, value) -> str:
         """ Deletion of an element from the array list.
             value: string
         """
