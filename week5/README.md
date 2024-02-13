@@ -1,5 +1,5 @@
 <h1>Testing Implementations</h1>
-<ol>
+<ul>
 <h2>Linked List</h2>
 <h3>Insertion</h3>
 <li>Add a number less than 5 into linked list (Least greatest)</li>
@@ -15,9 +15,9 @@
 <li></li>
 <li></li>
 <li></li>
-</ol>
+</ul>
 
-<ol>
+<ul>
 <h2>Array List</h2>
 <h3>Insertion</h3>
 <li>Add a number into the linked list (5)</li>
@@ -31,7 +31,7 @@
 <li>Remove value 1 from linked list (least greatest value)</li>
 <li>Remove a value that wasn't present in linked list</li>
 <li>Remove last value/greatest that was inside linked list</li>
-</ol>
+</ul>
 
 <h1>UML Diagrams</h1>
 
