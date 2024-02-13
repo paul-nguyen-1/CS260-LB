@@ -8,10 +8,10 @@
 </ol>
 <h2>Functions used in Array List Data Structure</h2>
 <ol>
-<li>Insertion: </li>
-<li>Remove: </li>
-<li>Search: </li>
-<li>Display: </li>
+<li>Insertion: Initialize index to check where our value is while traversing through array list. Check if our current index in the array starting from 0 is less than the value we are inserting and keep traversing list until we reach the end, while incrementing the index. Once we meet the conditions we will insert the value into the array with the index it needs to be in and what the value is.</li>
+<li>Remove: Traverse the linked list until we reach the value in the array list. Once we meet this condition we will remove the value from the array list and return the value.</li>
+<li>Search: We will set up a two pointer data structure and perform a binary search with the low and high variables, representing the start and end of the array list. We will traverse the array list and initialize a mid variable to check either the lower boundary, upper boundary, or if we reached the index for the array list. If our value is greater than the midpoint, we will search until we find the value in the lower boundary. If our value is less than the midpoint, we will search until we find the value in the upper boundary. </li>
+<li>Display: Return the array list object.</li>
 </ol>
 <h2>Values used in Linked List Structure</h2>
 <ol>
