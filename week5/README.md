@@ -36,9 +36,9 @@ Search: Establish a two-pointer structure, utilizing 'low' and 'high' variables 
 
 <ol>
 <h2>Array List</h2>
-<li>Insertion: In the worst case, inserting a node from the array list will need to traverse the entire list to add to the end of the array list. This involves traversing each index, resulting in a linear time complexity proportional to the length of the list. Best case is O(1), in the case that we only insert a node at the head of the linked list, making it constant time.</li>
-<li>Remove: In the worst case, removing a node from the array list will need to traverse the entire list to find the specified value. The time complexity is linear as it depends on the length of the list. Best case is O(1), in the case that we only need to remove at the head of the array list.</li>
-<li>Search: In this case, we use a binary search, which has a time complexity of O(log n), for a sorted list. Within this search, we will divide the search space in half with each comparison.</li>
+<li>Insertion O(N): In the worst case, inserting a node from the array list will need to traverse the entire list to add to the end of the array list. This involves traversing each index, resulting in a linear time complexity proportional to the length of the list. Best case is O(1), in the case that we only insert a node at the head of the linked list, making it constant time.</li>
+<li>Remove O(N): In the worst case, removing a node from the array list will need to traverse the entire list to find the specified value. The time complexity is linear as it depends on the length of the list. Best case is O(1), in the case that we only need to remove at the head of the array list.</li>
+<li>Search O(log N): In this case, we use a binary search, which has a time complexity of O(log n), for a sorted list. Within this search, we will divide the search space in half with each comparison.</li>
 </ol>
 
 
