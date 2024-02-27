@@ -1,7 +1,7 @@
 <h1>Design a Binary Search Tree</h1>
 <h2>Functions used in Binary Search Tree Data Structure</h2>
 <ol>
-<span>Add(value)</span>
+<strong>Add(value)</strong>
 <span>When adding a new value, it traverses the tree based on the comparison of values and adds the new node in the appropriate location.</span>
 <ol>
   <li>
@@ -26,7 +26,7 @@
   </li>
 </ol>
 
-<span>Remove(value)</span>
+<strong>Remove(value)</strong>
 <span>When removing a value, it finds the node, handles different cases (no child, one child, two children), and maintains the ordering property of the Binary Search Tree.</span>
 <ol>
   <li>
