@@ -133,7 +133,7 @@
 <li>Worst Case: O(N) - In the worst case, search can take linear time, as it involves traversing the height of the tree.</li>
 </ol>
 
-<h1>Unordered Binary Tree< Time Complexity/h1>
+<h1>Unordered Binary Tree Time Complexity</h1>
 <h2>Insertion(add)</h2>
 <ol>
 <li>Best Case: O(1) - In the best case, insertion is constant time when adding a node without any conflicts.</li>
