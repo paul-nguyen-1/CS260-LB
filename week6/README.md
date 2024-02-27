@@ -1,7 +1,7 @@
 <h1>Design a Binary Search Tree</h1>
 <h2>Functions used in Binary Search Tree Data Structure</h2>
 <ol>
-<strong>Add(value)</strong>
+<strong>Add(value):</strong>
 <span>When adding a new value, it traverses the tree based on the comparison of values and adds the new node in the appropriate location.</span>
 <ol>
   <li>
@@ -26,7 +26,7 @@
   </li>
 </ol>
 
-<strong>Remove(value)</strong>
+<strong>Remove(value):</strong>
 <span>When removing a value, it finds the node, handles different cases (no child, one child, two children), and maintains the ordering property of the Binary Search Tree.</span>
 <ol>
   <li>
@@ -63,7 +63,7 @@
   </li>
 </ol>
 
-<span>In Order Traversal</span>
+<h2>In Order Traversal</h2>
 <span>Prints the values of the nodes in ascending order</span>
 <strong>Traversal Process:</strong>
 <p>Starting from the root node, the method follows the in-order traversal process recursively:</p>
@@ -75,7 +75,7 @@
   <li>Values are printed in ascending order as they are visited during the in-order traversal.</li>
 </ul>
 
-<span>Find Minimum Value</span>
+<h2>Find Minimum Value</h2>
 <span>Finds the minimum value in a subtree.</span>
 <strong>Traversal Process:</strong>
 <p>Starting from the input node, the method follows the process to find the minimum value:</p>
