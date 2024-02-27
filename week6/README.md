@@ -119,3 +119,17 @@
 <li>Add values 5,3,7,2,4,6,8 to the tree</li>
 <li>Perform in-order traversal and ensure the output is in ascending order.</li>
 </ol>
+
+<h1>Binary Search Tree Time Complexities</h1>
+<ol>
+<h2>Insertion(add)</h2>
+<li>Best Case: O(log N) - The average case for insertion is logarithmic, as each comparison reduces the search space by half.</li>
+<li>Worst Case: O(N) - In the worst case, insertion can take linear time, as it involves traversing the height of the tree.</li>
+</ol>
+
+<ol>
+<h2>Search(remove)</h2>
+<li>Best Case: O(log N) - The best case for search is logarithmic, as each comparison reduces the search space by half.</li>
+<li>Worst Case: O(N) - In the worst case, search can take linear time, as it involves traversing the height of the tree.</li>
+</ol>
+
