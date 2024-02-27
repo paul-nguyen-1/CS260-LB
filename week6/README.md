@@ -137,7 +137,7 @@
 <ol>
 <h2>Insertion(add)</h2>
 <li>Best Case: O(1) - In the best case, insertion is constant time when adding a node without any conflicts.</li>
-<li>Worse Case: O(N) - In the worse case, we have to traverse all elements. Therefore, insertion in binary tree has worst case complexity of O(N)</li>
+<li>Worse Case: O(N) - In the worse case, we have to traverse all elements. Therefore, insertion in binary tree has worst case complexity of O(N).</li>
 </ol>
 <ol>
 <h2>Search</h2>
