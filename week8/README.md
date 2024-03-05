@@ -74,3 +74,30 @@
 - Delete key 11
 - Verify contains function
 
+# Simple Hashtable
+
+### Insertion Complexity:
+
+- **Without Collisions:** O(1) - In an ideal scenario with no collisions, the insert operation is constant time.
+
+- **With Collisions:** O(1) to O(n) - Resolving collisions adds complexity. In the worst case the time complexity can degrade to O(n), where n is the number of keys.
+
+### Contains Complexity:
+
+- **Without Collisions:** O(1) - In an ideal case with no collisions, the contains operation is constant time.
+
+- **With Collisions:** O(1) to O(n) - The worst-case time complexity for contains is affected by collisions. It can approach O(n) in the worst case due to the need to resolve collisions.
+
+# Double Hashing Hashtable
+
+### Insertion Complexity:
+
+- **Without Collisions:** O(1) - In an ideal scenario with no collisions, the insert operation is constant time.
+
+- **With Collisions:** O(1) to O(n) - Resolving collisions adds complexity. In the worst case, the time complexity can degrade to O(n), where n is the number of keys.
+
+### Contains Complexity:
+
+- **Without Collisions:** O(1) - In an ideal case with no collisions, the contains operation is constant time.
+
+- **With Collisions:** O(1) to O(n) - The worst-case time complexity for contains is affected by collisions. It can approach O(n) in the worst case due to the need to resolve collisions.
