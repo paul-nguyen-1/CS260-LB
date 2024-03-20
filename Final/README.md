@@ -25,48 +25,48 @@
 
 ## Add Vertex
 - Best Case: O(1)
-- In the best case, adding a vertex involves simply setting it as the head vertex, which can be done in constant time.
+    - In the best case, adding a vertex involves simply setting it as the head vertex, which can be done in constant time.
 
 - Worst Case: O(n)
-- In the worst case, adding a vertex requires traversing the list of vertices to find the end and append the new vertex.
+    - In the worst case, adding a vertex requires traversing the list of vertices to find the end and append the new vertex.
 
 ## Add Edge
 - Best Case: O(1)
-- In the best case, adding an edge involves simply appending it to the list of edges of the source vertex, which can be done in constant time.
+    - In the best case, adding an edge involves simply appending it to the list of edges of the source vertex, which can be done in constant time.
 
 - Worst Case: O(n)
-- In the worst case, adding an edge requires traversing the list of vertices to find the source and destination vertices.
+    - In the worst case, adding an edge requires traversing the list of vertices to find the source and destination vertices.
 
 ## Shortest Path
 - Best Case: O(n^2)
-- The best case occurs when the shortest path algorithm requires iterating through all vertices and their edges once to update distances.
+    - The best case occurs when the shortest path algorithm requires iterating through all vertices and their edges once to update distances.
 
 - Worst Case: O(n^2)
-- The worst case occurs when the shortest path algorithm requires iterating through all vertices and their edges multiple times until no further updates are possible.
+    - The worst case occurs when the shortest path algorithm requires iterating through all vertices and their edges multiple times until no further updates are possible.
 
 ## Minimum Spanning Tree
 - Best Case: O(n^2)
-- The best case occurs when the minimum spanning tree algorithm requires iterating through all vertices and their edges once to generate the minimum spanning tree.
+    - The best case occurs when the minimum spanning tree algorithm requires iterating through all vertices and their edges once to generate the minimum spanning tree.
 
 - Worst Case: O(n^2)
-- The worst case occurs when the minimum spanning tree algorithm requires iterating through all vertices and their edges multiple times until the minimum spanning tree is complete.
+    - The worst case occurs when the minimum spanning tree algorithm requires iterating through all vertices and their edges multiple times until the minimum spanning tree is complete.
 
 
 ## Test Implementation
 
 #### Test Setup
-- Initialize an instance of the `Graph` class
+- Initialize an instance of the Graph class
 - Add vertices representing different locations: "New York", "Los Angeles", "Chicago", "Houston", and "San Francisco"
 - Add edges between these vertices to simulate connections between the locations, specifying distances for each edge
 
 #### Test Shortest Path
-- Test the `shortest_path` method to find the shortest path between different pairs of locations
+- Test the shortest_path method to find the shortest path between different pairs of locations
   - Test case 1: Find the shortest path between "New York" and "San Francisco"
     - Assert that the shortest path distance is 3400 miles (New York -> Los Angeles -> San Francisco)
   - Test case 2: Find the shortest path between "New York" and "Houston"
     - Assert that the shortest path distance is 1800 miles (New York -> Chicago -> Houston)
 
 #### Test Minimum Spanning Tree
-- Test the `min_span_tree` method to find the minimum spanning tree of the graph.
+- Test the min_span_tree method to find the minimum spanning tree of the graph.
   - Create a list of expected edges in the minimum spanning tree, representing connections between all locations
   - Assert that all expected edges are present in the minimum spanning tree
